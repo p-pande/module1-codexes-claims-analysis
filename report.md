@@ -19,3 +19,10 @@ The most frequently occuring value in the claim charge amount column was $950.31
 The most frequently occuring value in the principal diagnosis codes column was Z733. Upon a simple google search, I was able to find that Z73 relates to Problems related to life-management difficulty. Behavorial health has taken a big leap in the current healthcare landscape and it was evident in this data. 
 
 The most frequently occuring HCPCS code was 99221. Another google search showed that the code is used when a patient is admitted to the hospital for a condition of low complexity. This seemed straightforward and rational 
+
+### Issues faced
+
+I faced issue extracting 8 unique columns and the unique values within them. I ended up creating an array of the 8 columns I had listed right before and used that to get the unique values. 
+Some of the errors I came across were 
+'Unindent amount does not match previous indent'
+'IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices'
